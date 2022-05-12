@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 41.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 730px;
+    height: 282px;
+    border-radius: 10px;
+    opacity: .5;
+}
+
+.container img{
+    width: 39%;
+    height: 100%;
+}
+
+.container div{
+    background-color: brown;
+    flex: 1 1;
+    height: 100%;
+}
