@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
-:root{
+:root {
     --font1:'Manrope', sans-serif;
 
     --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
@@ -15,7 +15,33 @@
     box-sizing: border-box;
 }
 
-.desktop-design{
+html {
+    font-family: var(--font1);
+    font-weight: 500;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+img, ion-icon, span {
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.desktop-design {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
