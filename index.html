@@ -43,7 +43,9 @@
 
           <div class="share">
             <button class="share-button">
-              <ion-icon name="arrow-redo-sharp"></ion-icon>            </button>
+              <ion-icon name="arrow-redo-sharp"></ion-icon>            
+            </button>
+
             <div class="share-option">
               <span>Share</span>
               <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -59,6 +61,7 @@
     const shareOption = document.querySelector('.share-option')
 
     document.querySelector('.share-button').addEventListener('click', function (){
+      this.classList.toggle('active')
       shareOption.classList.toggle('active')
     })
   </script>
